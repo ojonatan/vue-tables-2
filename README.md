@@ -1,5 +1,6 @@
 # Vue Tables 2
 
+> Note: this is a minimally adjusted version of the original version 0.6.74 by matfish2. Simply adding an event after data filtration with the entire set of filtered data as payload.
 > Note: As of version 0.6.70 the `orderBy` option no longer defaults to the first column. Omitting this option will display the data in its original order.
 
 [![npm version](https://badge.fury.io/js/vue-tables-2.svg)](https://badge.fury.io/js/vue-tables-2) [![GitHub stars](https://img.shields.io/github/stars/matfish2/vue-tables-2.svg)](https://github.com/matfish2/vue-tables-2/stargazers) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/matfish2/vue-tables-2/master/LICENSE)
