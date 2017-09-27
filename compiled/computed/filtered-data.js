@@ -25,6 +25,9 @@ module.exports = function () {
   }
 
   var offset = (this.page - 1) * this.limit;
+  
+  // filteredData before pagination
+  this.dispatch('filter-data', data);
 
   data = data.splice(offset, this.limit);
 
